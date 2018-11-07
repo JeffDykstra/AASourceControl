@@ -32,7 +32,7 @@ workflow Write-HelloWorld {
         [parameter(Mandatory=$false)]
         [String]$Name = "World"
     )
-        Write-verbose "test 12345"
+        Write-verbose "test 123456"
         Write-Output "Hello $Name"
 
 }
